@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget counterCard(Map<String, dynamic> counterItem) {
     return Expanded(
       child: Card(
-        margin: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
+        margin: const EdgeInsets.symmetric(vertical: 30, horizontal: 20),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
